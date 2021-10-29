@@ -1,0 +1,12 @@
+{
+	"authors": [
+		"zkxjzmswkwl"
+	],
+	"copyright": "?",
+	"dependencies": {
+		"hunt-database": "~>2.3.0"
+	},
+	"description": "database shenanigans",
+	"license": "don't care.",
+	"name": "wilt_back"
+}

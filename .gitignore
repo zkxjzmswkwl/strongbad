@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/wilt_back
+wilt_back.so
+wilt_back.dylib
+wilt_back.dll
+wilt_back.a
+wilt_back.lib
+wilt_back-test-*
+*.exe
+*.o
+*.obj
+*.lst
