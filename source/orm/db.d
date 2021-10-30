@@ -20,6 +20,7 @@ class WDatabase
     {
         return this.db.execute(statement);
     }
+    alias Exec = NExec;
 
     public RowSet RExec(string sql)
     {
