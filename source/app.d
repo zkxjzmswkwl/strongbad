@@ -7,7 +7,7 @@ import global;
 void main()
 {
 	WQueries *Query = WGlobal.GetQueries();
-	Query.InsertUser("Test_Na3e", "test1", "8@b.com");
+	Query.InsertUser("Test_Na4e", "test1", "8@b.com");
 
 	foreach (Row row; Query.GetAllUsers())
 	{

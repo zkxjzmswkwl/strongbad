@@ -1,7 +1,6 @@
 module orm.queries;
 
 import std.format;
-
 import hunt.database;
 import global;
 
@@ -16,6 +15,7 @@ class WQueries
              VALUES ('%s', '%s', '%s');",
             name, password, email
         );
+        // return value being the amount of rows impacted by this commit.
         return WGlobal.GetDatabase().NExec(built);
     }
 

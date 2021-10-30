@@ -7,6 +7,8 @@ static class WGlobal
     public static WQueries      wQ;
     public static WDatabase     wDb;
 
+    //-----------------------------------------------------
+    // Singleton getters
     public static WDatabase * GetDatabase()
     {
         if (this.wDb !is null)
